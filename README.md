@@ -1,5 +1,6 @@
-# Employee Attrition Analysis
-### Tools Used: Microsoft Excel · Microsoft Power BI
+# 📊 Employee Attrition Analysis
+
+### 🛠️ Tools Used: Microsoft Excel · Microsoft Power BI
 
 ---
 
@@ -8,7 +9,7 @@
 
 ---
 
-## Project Overview
+## 📌 Project Overview
 
 This project explores the factors driving employee attrition at a mid-to-large organisation using the IBM HR Analytics dataset. The goal was to move beyond a raw attrition rate and identify **which employee segments are most at risk, why they leave, and where the company should act first**.
 
@@ -18,84 +19,103 @@ All analysis was done entirely in **Microsoft Excel** (pivot tables, calculated 
 
 ---
 
-## Files in This Repository
+## 📂 Files in This Repository
 
-| File | Description |
-|------|-------------|
-| `HR_Attrition_Analysis.xlsx` | Excel workbook with all summary tables, breakdowns, and analysis sheets |
-| `HR_Attrition_Dashboard.pbix` | Power BI dashboard file (interactive) |
-| `WA_Fn-UseC_-HR-Employee-Attrition.csv` | Raw dataset (source data) |
-| `Data_Dictionary.md` | Field definitions and scale descriptions |
-| `PowerBI_Build_Guide.md` | Step-by-step guide for recreating the dashboard |
+| File                                    | Description                                                             |
+| --------------------------------------- | ----------------------------------------------------------------------- |
+| `HR_Attrition_Analysis.xlsx`            | Excel workbook with all summary tables, breakdowns, and analysis sheets |
+| `HR_Attrition_Dashboard.pbix`           | Power BI dashboard file (interactive)                                   |
+| `WA_Fn-UseC_-HR-Employee-Attrition.csv` | Raw dataset (source data)                                               |
+| `Data_Dictionary.md`                    | Field definitions and scale descriptions                                |
+| `PowerBI_Build_Guide.md`                | Step-by-step guide for recreating the dashboard                         |
 
 ---
 
-## Key Findings
+## 🔍 Key Findings
 
 **Overall attrition rate: 16.1%** (237 of 1,470 employees left)
 
-### 1. Job Role is the strongest predictor of attrition
+### 1️⃣ Job Role is the strongest predictor of attrition
+
 Sales Representatives have a **39.8%** attrition rate — the highest across all roles. Laboratory Technicians (23.9%) and HR staff (23.1%) are next. In contrast, Research Directors leave at just 2.5%.
 
-### 2. Overtime doubles the attrition rate
+### 2️⃣ Overtime doubles the attrition rate
+
 Employees who work overtime leave at **30.5%** vs **10.4%** for those who don't. This is the single largest binary split in the dataset.
 
-### 3. Young employees leave at a disproportionately high rate
+### 3️⃣ Young employees leave at a disproportionately high rate
+
 The 18–25 age group has a **34.8%** attrition rate. This drops to 9.2% for the 36–45 bracket. Early career experiences — compensation, growth opportunities, manager quality — appear to play a central role.
 
-### 4. Compensation gap is significant
+### 4️⃣ Compensation gap is significant
+
 Employees who left earned an average of **$4,787/month** vs **$6,833** for those who stayed — a 30% gap. While some of this is explained by role and seniority, it points to compensation as a retention lever.
 
-### 5. Single employees leave at 2.5× the rate of divorced employees
+### 5️⃣ Single employees leave at 2.5× the rate of divorced employees
+
 Single employees have a **25.5%** attrition rate vs 10.1% for divorced colleagues. This likely reflects different levels of financial commitments and mobility.
 
-### 6. Stock options are a strong retention tool
+### 6️⃣ Stock options are a strong retention tool
+
 Employees with no stock options leave at **24.4%**. Those at Level 1 drop to just **9.4%**. The relationship is not perfectly linear (Level 3 rises to 17.6%) but the signal is clear at the entry level.
 
-### 7. Frequent business travel elevates risk
+### 7️⃣ Frequent business travel elevates risk
+
 Employees who travel frequently leave at **24.9%** — three times the rate of non-travellers (8.0%). This compounds with job satisfaction and work-life balance scores.
 
-### 8. Job satisfaction predicts attrition, but the gap is moderate
+### 8️⃣ Job satisfaction predicts attrition, but the gap is moderate
+
 Low satisfaction employees (score 1/4) leave at **22.8%** vs **11.3%** for the most satisfied. Satisfaction alone is not the whole story — structural factors appear equally important.
 
 ---
-### Screenshots from Excel Work 
+
+### 🖥️ Screenshots from Excel Work
+
 ---
+
 <img width="1849" height="779" alt="Excel Screenshot_01" src="https://github.com/user-attachments/assets/2dd24d82-bd58-4033-933e-88abd6822599" />
 
 ---
+
 <img width="1877" height="773" alt="Excel Screenshot_02" src="https://github.com/user-attachments/assets/3f5af444-7dc1-45bb-bc6d-c2777709072d" />
 
 ---
+
 <img width="1872" height="780" alt="Excel Screenshot_04" src="https://github.com/user-attachments/assets/bf89e12f-0ab7-41b8-8281-5fa7de2ae184" />
 
 ---
+
 <img width="1873" height="782" alt="Excel Screenshot_03" src="https://github.com/user-attachments/assets/af684c07-945b-4f6b-80f2-f4016fd2dde7" />
 
 ---
-## Analysis Structure (Excel Workbook)
 
-**Sheet 1 – Executive Summary**
+## 🧾 Analysis Structure (Excel Workbook)
+
+### 📄 Sheet 1 – Executive Summary
+
 High-level KPIs and a summary of the eight key findings. Suitable for a one-page management read.
 
-**Sheet 2 – By Department & Role**
+### 📄 Sheet 2 – By Department & Role
+
 Full breakdown of attrition counts and rates for all three departments and all nine job roles, with risk-level classifications.
 
-**Sheet 3 – Workforce Demographics**
+### 📄 Sheet 3 – Workforce Demographics
+
 Six analysis tables covering age group, gender, marital status, business travel, overtime, and work-life balance.
 
-**Sheet 4 – Job Factors**
+### 📄 Sheet 4 – Job Factors
+
 Attrition breakdowns by job satisfaction, environment satisfaction, job involvement, stock option level, income comparison, and tenure.
 
-**Sheet 5 – Raw Data (Sample)**
+### 📄 Sheet 5 – Raw Data (Sample)
+
 A 50-row sample of the original dataset for reference. The full CSV is provided separately.
 
 <img width="1894" height="39" alt="Excel Screenshot_05" src="https://github.com/user-attachments/assets/eddcb626-44a0-495e-9396-c17bfce9efee" />
 
 ---
 
-
-## Power BI Dashboard Pages
+## 📊 Power BI Dashboard Pages
 
 1. **Overview** — Attrition rate KPIs, trend breakdown, headline filters
 2. **Demographics** — Age, gender, marital status, business travel slicers
@@ -104,27 +124,27 @@ A 50-row sample of the original dataset for reference. The full CSV is provided 
 
 ---
 
-## Data Source
+## 🗂️ Data Source
 
 IBM HR Analytics Employee Attrition & Performance dataset, made publicly available on Kaggle. The data is fictional and was created by IBM data scientists for learning purposes.
 
-**Dataset size:** 1,470 rows × 35 columns
-**No missing values** in the original dataset.
+**📏 Dataset size:** 1,470 rows × 35 columns
+**✅ No missing values** in the original dataset.
 
 ---
 
-## Methodology Notes
+## ⚙️ Methodology Notes
 
-- Attrition rate is calculated as: `(Employees Left / Total Employees) × 100`
-- Satisfaction scores (1–4) represent: 1 = Low, 2 = Medium, 3 = High, 4 = Very High
-- Work-Life Balance scores (1–4): 1 = Bad, 2 = Good, 3 = Better, 4 = Best
-- Job Involvement scores (1–4): 1 = Low, 2 = Medium, 3 = High, 4 = Very High
-- Age groups were manually bucketed: 18–25, 26–35, 36–45, 46–60
-- All figures are based on the full dataset of 1,470 records
+* Attrition rate is calculated as: `(Employees Left / Total Employees) × 100`
+* Satisfaction scores (1–4) represent: 1 = Low, 2 = Medium, 3 = High, 4 = Very High
+* Work-Life Balance scores (1–4): 1 = Bad, 2 = Good, 3 = Better, 4 = Best
+* Job Involvement scores (1–4): 1 = Low, 2 = Medium, 3 = High, 4 = Very High
+* Age groups were manually bucketed: 18–25, 26–35, 36–45, 46–60
+* All figures are based on the full dataset of 1,470 records
 
 ---
 
-## How to Use This Project
+## 🚀 How to Use This Project
 
 1. Open `HR_Attrition_Analysis.xlsx` in Excel — all summary tables are pre-built and formatted
 2. Open `HR_Attrition_Dashboard.pbix` in Power BI Desktop — use slicers to explore segments interactively
@@ -133,4 +153,4 @@ IBM HR Analytics Employee Attrition & Performance dataset, made publicly availab
 
 ---
 
-*This project was completed as part of a data analytics portfolio. Feedback and questions are welcome via GitHub Issues.*
+*This project was completed as part of a data analytics portfolio. Feedback and questions are welcome via GitHub Issues.* 
