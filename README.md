@@ -3,6 +3,10 @@
 
 ---
 
+<img width="1899" height="771" alt="image" src="https://github.com/user-attachments/assets/42ddea3a-63b4-4f50-958d-5bef152c6250" />
+
+---
+
 ## Project Overview
 
 This project explores the factors driving employee attrition at a mid-to-large organisation using the IBM HR Analytics dataset. The goal was to move beyond a raw attrition rate and identify **which employee segments are most at risk, why they leave, and where the company should act first**.
