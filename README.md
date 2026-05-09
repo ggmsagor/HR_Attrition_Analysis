@@ -59,7 +59,20 @@ Employees who travel frequently leave at **24.9%** — three times the rate of n
 Low satisfaction employees (score 1/4) leave at **22.8%** vs **11.3%** for the most satisfied. Satisfaction alone is not the whole story — structural factors appear equally important.
 
 ---
+### Screenshots from Excel Work 
+---
+<img width="1849" height="779" alt="Excel Screenshot_01" src="https://github.com/user-attachments/assets/2dd24d82-bd58-4033-933e-88abd6822599" />
 
+---
+<img width="1877" height="773" alt="Excel Screenshot_02" src="https://github.com/user-attachments/assets/3f5af444-7dc1-45bb-bc6d-c2777709072d" />
+
+---
+<img width="1872" height="780" alt="Excel Screenshot_04" src="https://github.com/user-attachments/assets/bf89e12f-0ab7-41b8-8281-5fa7de2ae184" />
+
+---
+<img width="1873" height="782" alt="Excel Screenshot_03" src="https://github.com/user-attachments/assets/af684c07-945b-4f6b-80f2-f4016fd2dde7" />
+
+---
 ## Analysis Structure (Excel Workbook)
 
 **Sheet 1 – Executive Summary**
@@ -77,7 +90,10 @@ Attrition breakdowns by job satisfaction, environment satisfaction, job involvem
 **Sheet 5 – Raw Data (Sample)**
 A 50-row sample of the original dataset for reference. The full CSV is provided separately.
 
+<img width="1894" height="39" alt="Excel Screenshot_05" src="https://github.com/user-attachments/assets/eddcb626-44a0-495e-9396-c17bfce9efee" />
+
 ---
+
 
 ## Power BI Dashboard Pages
 
